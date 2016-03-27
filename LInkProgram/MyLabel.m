@@ -17,7 +17,10 @@
     }
     return la;
 }
-
+-(MyLabel *)with
+{
+    return self;
+}
 -(MyLabel *(^)(CGRect))labelframe
 {
     return ^MyLabel *(CGRect rect){
@@ -25,13 +28,7 @@
         return self;
     };
 }
--(MyLabel *(^)(UIColor *))labackgroundcolor
-{
-    return ^MyLabel *(UIColor *color){
-        self.backgroundColor = color;
-        return self;
-    };
-}
+
 -(MyLabel *(^)(CGFloat))lacornerradius
 {
     return ^MyLabel *(CGFloat a){

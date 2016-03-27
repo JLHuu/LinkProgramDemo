@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F26190F11C906C270001746E /* UILabel+exlabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F26190F01C906C270001746E /* UILabel+exlabel.m */; };
 		F2C2DF7C1C8AE3FF003C3F68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF7B1C8AE3FF003C3F68 /* main.m */; };
 		F2C2DF7F1C8AE3FF003C3F68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF7E1C8AE3FF003C3F68 /* AppDelegate.m */; };
 		F2C2DF821C8AE3FF003C3F68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2DF811C8AE3FF003C3F68 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F26190EF1C906C270001746E /* UILabel+exlabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+exlabel.h"; sourceTree = "<group>"; };
+		F26190F01C906C270001746E /* UILabel+exlabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+exlabel.m"; sourceTree = "<group>"; };
 		F2C2DF771C8AE3FF003C3F68 /* LInkProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LInkProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2DF7B1C8AE3FF003C3F68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C2DF7D1C8AE3FF003C3F68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				F2C2DF7E1C8AE3FF003C3F68 /* AppDelegate.m */,
 				F2C2DF801C8AE3FF003C3F68 /* ViewController.h */,
 				F2C2DF811C8AE3FF003C3F68 /* ViewController.m */,
+				F26190EF1C906C270001746E /* UILabel+exlabel.h */,
+				F26190F01C906C270001746E /* UILabel+exlabel.m */,
 				F2C2DF911C8AE478003C3F68 /* MyLabel.h */,
 				F2C2DF921C8AE478003C3F68 /* MyLabel.m */,
 				F2C2DF831C8AE3FF003C3F68 /* Main.storyboard */,
@@ -157,6 +162,7 @@
 				F2C2DF821C8AE3FF003C3F68 /* ViewController.m in Sources */,
 				F2C2DF7F1C8AE3FF003C3F68 /* AppDelegate.m in Sources */,
 				F2C2DF931C8AE478003C3F68 /* MyLabel.m in Sources */,
+				F26190F11C906C270001746E /* UILabel+exlabel.m in Sources */,
 				F2C2DF7C1C8AE3FF003C3F68 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +310,7 @@
 				F2C2DF901C8AE400003C3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

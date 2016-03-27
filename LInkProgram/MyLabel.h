@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MyLabel : UILabel
-@property(nonatomic,copy)MyLabel *(^labelframe)(CGRect frame);
-@property(nonatomic,copy)MyLabel *(^lacornerradius)(CGFloat cornerradius);
-@property(nonatomic,copy)MyLabel *(^labackgroundcolor)(UIColor *backgroundcolor);
-@property(nonatomic,copy)MyLabel *(^lastring)(NSString *str,UIColor *strcolor,CGFloat fontsize);
-
+@property(nonatomic,copy,readonly)MyLabel *(^labelframe)(CGRect frame);
+@property(nonatomic,copy,readonly)MyLabel *(^lacornerradius)(CGFloat cornerradius);
+@property(nonatomic,copy,readonly)MyLabel *(^lastring)(NSString *str,UIColor *strcolor,CGFloat fontsize);
+@property(nonatomic,weak,readonly)MyLabel *with;
 // 写了一个类方法来创建实例
 +(instancetype)labelinitWith:(void (^)(MyLabel *la)) initblock;
 @end

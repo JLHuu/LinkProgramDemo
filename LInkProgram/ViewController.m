@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MyLabel.h"
+#import "UILabel+exlabel.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self.view addSubview:[MyLabel labelinitWith:^(MyLabel *la){
-        la.labelframe(CGRectMake(100, 100, 200, 200)).labackgroundcolor([UIColor redColor]).lacornerradius(30).lastring(@"是不是感觉masnory用起来屌屌的，这是一个链式编程的简单实现，希望对你理解链式编程有所帮助~~~~",[UIColor greenColor],15.f);
+        la.labelframe(CGRectMake(100, 100, 200, 200)).lacornerradius(30).with.lastring(@"是不是感觉masnory用起来屌屌的，这是一个链式编程的简单实现，希望对你理解链式编程有所帮助~~~~",[UIColor greenColor],15.f).labackgroundcolor([UIColor redColor]);
     }]];
 }
 
